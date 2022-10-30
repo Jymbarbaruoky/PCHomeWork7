@@ -1,0 +1,10 @@
+from setuptools import setup, find_namespace_packages
+
+setup(
+    name='clean_folder',
+    version='0.1',
+    description='clean and sorting folder',
+    author='Alexandr Nevskiy',
+    packages=find_namespace_packages(),
+    entry_points={'console_scripts': ['clean-folder = useful.clean:main']}
+)
